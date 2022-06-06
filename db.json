@@ -1,0 +1,92 @@
+{
+  "property": [
+    {
+      "id": 1,
+      "title": "Lighthouse hosted by Søren",
+      "description": "Light House consists of an entrance, a main bath room with a view and bathtub, main bedroom with a view, a kitchen/livingroom, a corridor with doors to a second bathroom, two bedrooms, and a stair to the second floor from where there are a panoramaview over Flade Lake, towards the dunes and Lodbjerg Light Tower.",
+      "address": {
+        "city": "Vestervig",
+        "country": "Denmark"
+      },
+      "detail": {
+        "bedrooms": 2,
+        "beds": 2,
+        "bathrooms": 1
+      }
+    },
+    {
+      "title": "Luxury stay in Thalang, Phuket, Thailand",
+      "description": "Artfully designed by accomplished architects Jean-Michel Gath and Phillipe Starck,",
+      "address": {
+        "city": "Thalang",
+        "country": "Thailand"
+      },
+      "detail": {
+        "bedrooms": "9",
+        "beds": "10",
+        "bathrooms": "9"
+      },
+      "file": null,
+      "propertyError": "",
+      "id": 2
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@test.com",
+      "password": "admin123"
+    },
+    {
+      "name": "Smit",
+      "email": "smit@gmail.com",
+      "password": "1231234",
+      "signUpMsg": "",
+      "id": 2
+    },
+    {
+      "name": "vpt@narola.email",
+      "email": "vpt@narola.email",
+      "password": "Password123#",
+      "signUpMsg": "",
+      "id": 3
+    },
+    {
+      "name": "sdl",
+      "email": "sdl@narola.email",
+      "password": "Password123#",
+      "id": 4
+    }
+  ],
+  "booking": [
+    {
+      "id": 1,
+      "checkInDate": "2022/06/28",
+      "checkOutDate": "2022/06/30",
+      "propertyId": 1,
+      "userId": 3
+    },
+    {
+      "checkInDate": "2022/06/16",
+      "checkOutDate": "2022/06/17",
+      "propertyId": 1,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "checkInDate": "2022/06/10",
+      "checkOutDate": "2022/06/16",
+      "propertyId": 2,
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "checkInDate": "2022/06/17",
+      "checkOutDate": "2022/06/18",
+      "propertyId": 1,
+      "userId": 3,
+      "id": 4
+    }
+  ]
+}
